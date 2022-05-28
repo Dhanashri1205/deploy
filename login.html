@@ -1,0 +1,85 @@
+
+<html>
+    <head>
+        <title>College Dashboard</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    </head>
+    <body>
+        <div class="main">
+            <div class="menu">
+                <h2 id="logo">MET</h2>
+                <a href="Assignment_1.html">Home</a>
+                <a href="StudentRegForm.html">Student</a>
+                <a href="StaffRegForm.html">Staff</a>
+                <a href="#">Help</a>
+                
+
+            </div>
+           
+        
+            <!-- Main Content -->
+            <div id="content">
+                <nav>
+                    
+                    <ul>
+                        <li><a  href="Assignment_1.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                  </nav>
+             <br><br>
+             <style>   
+                Body {  
+                  font-family: Calibri, Helvetica, sans-serif;  
+                  background-color: black;  
+                }  
+                button {   
+                       background-color: #4CAF50;   
+                       width: 100%;  
+                        color: orange;   
+                        padding: 15px;   
+                        margin: 10px 0px;   
+                        border: none;   
+                        cursor: pointer;   
+                         }   
+                 form {   
+                        border: 3px solid #f1f1f1;   
+                    }   
+                 input[type=text], input[type=password] {   
+                        width: 100%;   
+                        margin: 8px 0;  
+                        padding: 12px 20px;   
+                        display: inline-block;   
+                        border: 2px solid green;   
+                        box-sizing: border-box;   
+                    }  
+                 button:hover {   
+                        opacity: 0.7;   
+                    }   
+                  .cancelbtn {   
+                        width: auto;   
+                        padding: 10px 18px;  
+                        margin: 10px 5px;  
+                    }   
+                        
+                     
+                 .container {   
+                        padding: 55px;   
+                        background-color: lightblue;  
+                    }   
+                </style>   
+                <form action="database_login.php" method="GET">  
+                    <div class="container">   
+                        <label>Username : </label>   
+                        <input type="text" placeholder="Enter Username" name="username" required>  
+                        <label>Password : </label>   
+                        <input type="password" placeholder="Enter Password" name="password" required>  
+                        <button type="submit">Login</button>   
+                        <input type="checkbox" checked="checked"> Remember me   
+                        <button type="button" class="cancelbtn" name="save1" > Cancel</button>   
+                        Forgot <a href="#"> password? </a>   
+                    </div>   
+                </form>     
+            </div></div>
+</html>
